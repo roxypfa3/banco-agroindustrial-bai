@@ -560,15 +560,15 @@ img {
 }
 
 .card-credit {
-  background-image: url("IMAGENES/Imagen caja 1.jpg");
+  background-image: url("imagenes/Imagen caja 1.jpg");
 }
 
 .card-business {
-  background-image: url("IMAGENES/Imagen caja 2.jpg");
+  background-image: url("imagenes/Imagen caja 2.jpg");
 }
 
 .card-insurance {
-  background-image: url("IMAGENES/Imagen caja 3.jpg");
+  background-image: url("imagenes/Imagen caja 3.jpg");
 }
 
 .product-card::before {
