@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco Agroindustrial | BAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ENCABEZADO Y MENÚ DE NAVEGACIÓN -->
+  <header class="site-header">
+   <a class="brand" href="#inicio" aria-label="Banco Agroindustrial">
+    <img src="IMAGENES\LOGO DE BANCO.png"
+         alt="Logo Banco Agroindustrial"
+         class="brand-logo">
+</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+      <a class="active" href="#inicio">Inicio</a>
+      
+<!-- MENÚ PERSONAS -->
+<div class="nav-dropdown">
+    <button class="nav-dropdown-toggle" type="button">
+        Personas <span>⌄</span>
+    </button>
+    <div class="dropdown-menu">
+        <a href="#personas">Información general</a>
+        <a href="#canales-personas">Canales de atencion</a>
+        <a href="#educacion">Educacion Financiera</a>
+        <a href="#creditos-personas">Créditos personales</a>
+    </div>
+</div>
+
+<!-- MENÚ EMPRESAS -->
+<div class="nav-dropdown">
+    <button class="nav-dropdown-toggle" type="button">
+        Empresas <span>⌄</span>
+    </button>
+    <div class="dropdown-menu">
+        <a href="#empresas">Información general</a>
+        <a href="#cuentas-empresariales">Cuentas empresariales</a>
+        <a href="#creditos-empresariales">Créditos empresariales</a>
+        <a href="#inversiones-empresariales">Inversiones</a>
+    </div>
+</div>
+
+<!-- MENÚ AGROINDUSTRIA -->
+<div class="nav-dropdown">
+    <button class="nav-dropdown-toggle" type="button">
+        Agroindustria <span>⌄</span>
+    </button>
+    <div class="dropdown-menu">
+        <a href="#agroindustria">Información general</a>
+        <a href="#credito-agro">Crédito agroproductivo</a>
+        <a href="#maquinaria">Maquinaria agrícola</a>
+        <a href="#inversion-agro">Inversión agroindustrial</a>
+    </div>
+</div>
+
+<!-- MENÚ PRODUCTOS -->
+<div class="nav-dropdown">
+    <button class="nav-dropdown-toggle" type="button">
+        Productos <span>⌄</span>
+    </button>
+
+    <div class="dropdown-menu">
+        <a href="#productos">Todos los productos</a>
+        <a href="#cuentas-personas">Cuentas de ahorro</a>
+        <a href="#tarjetas">Tarjetas BAI</a>
+        <a href="#creditos-agro">Créditos agroindustriales</a>
+        <a href="#creditos-empresariales">Créditos empresariales</a>
+        <a href="#inversiones-empresariales">Inversiones</a>
+    </div>
+</div>
+
+      
+<div class="nav-dropdown">
+    <button class="nav-dropdown-toggle" type="button"
+            aria-expanded="false">
+        Servicios <span>⌄</span>
+    </button>
+
+    
+
+      <a href="#nosotros">Nosotros</a>
+      <a class="online-button" href="banca-en-linea.html">
+    ♙ <span>Banca en línea</span>
+</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- BANNER PRINCIPAL -->
+    
+<!-- CARRUSEL PRINCIPAL -->
+<section class="hero" id="inicio">
+
+  <!-- DIAPOSITIVA 1: ORIGINAL -->
+<div class="hero-slide"
+     style="background-image: url('IMAGENES/imagen principal.jpg');">
+
+  <div class="hero-shade"></div>
+
+  <div class="hero-content">
+    <p class="eyebrow">BANCO AGROINDUSTRIAL</p>
+    <h1>Impulsamos<br><span>tu futuro</span></h1>
+    <div class="gold-line"></div>
+    <p class="hero-description">
+      Somos el aliado financiero del sector agroindustrial, apoyando el crecimiento
+      de quienes trabajan por un país más fuerte y sostenible.
+    </p>
+    <a class="button button-gold" href="#productos">
+      Conoce más <span>→</span>
+    </a>
+  </div>
+
+  <div class="hero-note">
+    <span class="note-leaf"></span>
+    <p>FINANCIAMIENTO<br>PARA UN ECUADOR<br>MÁS PRODUCTIVO</p>
+    <div class="gold-line"></div>
+  </div>
+</div>
+
+<!-- DIAPOSITIVA 2 -->
+<div class="hero-slide active"
+     style="background-image: url('IMAGENES/credito-agroproductivo.png');">
+</div>
+
+<!-- DIAPOSITIVA 3 -->
+<div class="hero-slide"
+     style="background-image: url('IMAGENES/credito-empresarial.png');">
+</div>
+
+<!-- DIAPOSITIVA 4 -->
+<div class="hero-slide"
+     style="background-image: url('IMAGENES/cuenta-ahorro.png');">
+</div>
+  <!-- FLECHAS E INDICADORES -->
+  <button class="hero-arrow hero-prev" id="heroPrev">‹</button>
+  <button class="hero-arrow hero-next" id="heroNext">›</button>
+
+  <div class="hero-dots">
+    <button class="hero-dot active"></button>
+    <button class="hero-dot"></button>
+    <button class="hero-dot"></button>
+    <button class="hero-dot"></button>
+  </div>
+
+</section>
+
+
+    <!-- BENEFICIOS DESTACADOS -->
+   
+<!-- BENEFICIOS DESTACADOS -->
+<section class="benefits" id="servicios" aria-label="Beneficios">
+
+    <article class="benefit">
+        <span class="benefit-icon">
+            <img src="Iconos\Icono de credito pro.png" alt="Icono de credito">
+        </span>
+        <div>
+            <h3>Créditos productivos</h3>
+            <p>Impulsa tus proyectos agroindustriales.</p>
+        </div>
+    </article>
+
+    <article class="benefit">
+        <span class="benefit-icon">
+            <img src="Iconos\Icono de cuentas ah y cre.png" alt="Cuentas">
+        </span>
+        <div>
+            <h3>Cuentas de ahorro y corriente</h3>
+            <p>Soluciones para tu dinero.</p>
+        </div>
+    </article>
+
+    <article class="benefit">
+        <span class="benefit-icon">
+            <img src="Iconos\Icono de banca digital.png" alt="Banca digital">
+        </span>
+        <div>
+            <h3>Banca digital</h3>
+            <p>Tus transacciones donde y cuando quieras.</p>
+        </div>
+    </article>
+
+    <article class="benefit">
+        <span class="benefit-icon">
+            <img src="Iconos\icono de asesoria.png" alt="Asesoría">
+        </span>
+        <div>
+            <h3>Asesoría especializada</h3>
+            <p>Acompañamos tu crecimiento.</p>
+        </div>
+    </article>
+
+    <article class="benefit">
+        <span class="benefit-icon">
+            <img src="Iconos\Icono de seguridad.png" alt="Seguridad">
+        </span>
+        <div>
+            <h3>Seguridad financiera</h3>
+            <p>Tu tranquilidad siempre primero.</p>
+        </div>
+    </article>
+
+</section>
+
+
+    <!-- PRODUCTOS PRINCIPALES -->
+   <section class="products-section" id="productos">
+
+    <div class="products-intro">
+        <p class="section-kicker">NUESTROS PRODUCTOS</p>
+        <div class="gold-line"></div>
+        <h2>Soluciones para cada etapa de tu crecimiento</h2>
+        <p>Productos y servicios diseñados para impulsar el desarrollo del sector agroindustrial, las empresas y las personas.</p>
+        <a class="text-link" href="#empresas">Ver todos los productos <span>→</span></a>
+    </div>
+
+    <article class="product-card card-credit">
+        <div class="card-content">
+
+            <img class="card-icon"
+                 src="Iconos de tarjetas/icono de credit agroin.png"
+                 alt="Créditos Agroindustriales">
+
+            <h3>Créditos Agroindustriales</h3>
+            <p>Financia tus proyectos productivos con soluciones pensadas para ti.</p>
+            <a href="#contacto">Conoce más <span>→</span></a>
+
+        </div>
+    </article>
+
+    <article class="product-card card-business">
+        <div class="card-content">
+
+            <img class="card-icon"
+                 src="Iconos de tarjetas/icono de cuentas empresariales.png"
+                 alt="Cuentas Empresariales">
+
+            <h3>Cuentas Empresariales</h3>
+            <p>Soluciones a la medida de tu negocio agroindustrial.</p>
+            <a href="#contacto">Conoce más <span>→</span></a>
+
+        </div>
+    </article>
+
+    <article class="product-card card-insurance">
+        <div class="card-content">
+
+            <img class="card-icon"
+                 src="Iconos de tarjetas/icono de inversion.png"
+                 alt="Inversiones y Seguros">
+
+            <h3>Inversiones y Seguros</h3>
+            <p>Protege tu producción y planifica tu futuro.</p>
+            <a href="#contacto">Conoce más <span>→</span></a>
+
+        </div>
+    </article>
+
+</section>
+
+
+
+    <!-- LLAMADO A LA ACCIÓN -->
+   <section class="cta" id="nosotros">
+    <div>
+        <p class="section-kicker">CRECEMOS CONTIGO</p>
+        <h2>Tu próximo proyecto empieza aquí.</h2>
+        <p>Conoce las alternativas que pueden acompañar tus objetivos.</p>
+    </div>
+    <a class="button button-green" href="#contacto">Explora nuestras soluciones <span>→</span></a>
+</section>
+  </main>
+
+ 
+<!-- PIE DE PÁGINA -->
+<footer class="site-footer" id="contacto">
+
+    <div class="footer-brand">
+        <strong>BAI · Banco Agroindustrial</strong>
+        <p>Impulsamos tu futuro.</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="#nosotros">Sobre nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="mailto:contacto@bai.example">Contacto</a>
+    </div>
+
+
+<!-- REDES SOCIALES -->
+<div class="footer-social">
+
+    <!-- Facebook -->
+    <a href="#" aria-label="Facebook">
+        <svg viewBox="0 0 24 24">
+            <path fill="currentColor" d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.3-1.5 1.6-1.5h1.7V3.7c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2H7.3V13h2.8v8z"/>
+        </svg>
+    </a>
+
+    <!-- Instagram -->
+    <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+        </svg>
+    </a>
+
+    <!-- TikTok -->
+    <a href="#" aria-label="TikTok">
+        <svg viewBox="0 0 24 24">
+            <path fill="currentColor" d="M19.6 8.3a7 7 0 0 1-4.2-1.4v8.2a5.5 5.5 0 1 1-5.5-5.5c.4 0 .8 0 1.2.1v3a2.5 2.5 0 1 0 1.4 2.3V3h3a4 4 0 0 0 4.1 3.5z"/>
+        </svg>
+    </a>
+
+    <!-- YouTube -->
+    <a href="#" aria-label="YouTube">
+        <svg viewBox="0 0 24 24">
+            <path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.3V8.7l5.8 3.3z"/>
+        </svg>
+    </a>
+
+</div>
+
+</footer>
+
+
+  
+<script>
+    // Menú desplegable para pantallas pequeñas
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = mainNav.classList.toggle('is-open');
+      menuToggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    // Cierra el menú después de seleccionar una sección
+    mainNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mainNav.classList.remove('is-open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // FUNCIONAMIENTO DEL CARRUSEL
+    const heroSlides = document.querySelectorAll('.hero-slide');
+    const heroDots = document.querySelectorAll('.hero-dot');
+    const heroNext = document.getElementById('heroNext');
+    const heroPrev = document.getElementById('heroPrev');
+
+    let currentSlide = 0;
+    let carouselTimer;
+
+    function showSlide(index) {
+
+  if (heroSlides.length === 0) return;
+
+  heroSlides[currentSlide].classList.remove('active');
+
+  if (heroDots[currentSlide]) {
+    heroDots[currentSlide].classList.remove('active');
+  }
+
+  currentSlide = (index + heroSlides.length) % heroSlides.length;
+
+  heroSlides[currentSlide].classList.add('active');
+
+  if (heroDots[currentSlide]) {
+    heroDots[currentSlide].classList.add('active');
+  }
+}
+    function startCarousel() {
+      clearInterval(carouselTimer);
+      carouselTimer = setInterval(() => {
+        showSlide(currentSlide + 1);
+      }, 4000);
+    }
+
+    heroNext.addEventListener('click', () => {
+      showSlide(currentSlide + 1);
+      startCarousel();
+    });
+
+    heroPrev.addEventListener('click', () => {
+      showSlide(currentSlide - 1);
+      startCarousel();
+    });
+
+    heroDots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        showSlide(index);
+        startCarousel();
+      });
+    });
+
+    startCarousel();
+</script>
+
+</body>
+</html>
